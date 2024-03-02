@@ -5,7 +5,10 @@ function Empty() {
       {" "}
       <h2 className="empty">Enjoy You Day!</h2>
       <p className="emptyPara">No TODOs Found!</p>
-      <img src="../Todo_App/src/assets/TODOEMPTY.png" alt="¯\_(ツ)_/¯" />
+      <img
+        src="https://raw.githubusercontent.com/Taran677/Todo_App/master/src/assets/TODOEMPTY.png"
+        alt="¯\_(ツ)_/¯"
+      />
     </div>
   );
 }
