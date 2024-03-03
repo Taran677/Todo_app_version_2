@@ -45,6 +45,7 @@ button {
 
 div[id^="todoItem-"] {
     overflow: scroll;
+    overflow-wrap: break-word;
 }
 
 div[id^="todoItem-"]::-webkit-scrollbar {
@@ -73,12 +74,19 @@ div[id^="todoItem-"]::-webkit-scrollbar {
 }
 
 .spl {
-    background: rgba(135, 120, 139, 0.206);
+    background: rgb(255, 255, 255);
     border-radius: 0;
+    border-radius: 2vh;
+    border: rgb(168, 43, 226) solid 1px;
+}
+
+.spl:hover {
+    background-color: rgba(179, 0, 255, 0.031);
 }
 
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
