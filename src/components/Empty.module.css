@@ -1,3 +1,46 @@
 .empty-div {
     opacity: 0.4;
 }
+
+.notes {
+    background: rgb(42, 25, 44);
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    border-radius: 0.6em;
+    overflow: hidden;
+}
+
+.one {
+    min-width: 50vw;
+}
+
+.zero {
+    background: #944e79;
+    color: rgb(42, 7, 47);
+    justify-content: space-around;
+    align-items: flex-start;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1vh;
+}
+
+.one {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    padding: 1vh 0 1vh 1vh;
+}
+
+.two {
+    justify-content: space-evenly;
+}
+
+.spl {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    padding: 0;
+}

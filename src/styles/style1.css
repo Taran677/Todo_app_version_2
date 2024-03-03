@@ -17,9 +17,8 @@ body {
 button {
     margin: 0.5em !important;
     display: flex;
-    flex-grow: 1;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 50%;
+    max-width: 50%;
 }
 
 .btn {
@@ -76,4 +75,10 @@ div[id^="todoItem-"]::-webkit-scrollbar {
 .spl {
     background: rgba(135, 120, 139, 0.206);
     border-radius: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
