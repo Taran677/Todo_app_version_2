@@ -64,9 +64,6 @@ div[id^="todoItem-"]::-webkit-scrollbar {
         margin: 10px 0;
     }
 
-    .col-2 {
-        translate: -3vw;
-    }
 }
 
 *::-webkit-scrollbar {
